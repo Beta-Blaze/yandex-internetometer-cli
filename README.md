@@ -11,6 +11,13 @@ curl -sL https://raw.githubusercontent.com/Beta-Blaze/yandex-internetometer-cli/
 
 ```
 
+#### Быстрый режим (Fast mode)
+Для проведения ускоренного замера (8 потоков, без фазы прогрева) используйте флаг `-f` или `--fast`:
+
+```bash
+curl -sL https://raw.githubusercontent.com/Beta-Blaze/yandex-internetometer-cli/refs/heads/main/speedtest.py | python3 - -f
+```
+
 ---
 # Yandex Internetometer CLI 
 
@@ -23,4 +30,11 @@ Requires Python 3 and `requests`.
 ```bash
 curl -sL https://raw.githubusercontent.com/Beta-Blaze/yandex-internetometer-cli/refs/heads/main/speedtest.py | python3
 
+```
+
+#### Fast mode
+To run a faster test (8 threads, no warmup phase), use the `-f` or `--fast` flag:
+
+```bash
+curl -sL https://raw.githubusercontent.com/Beta-Blaze/yandex-internetometer-cli/refs/heads/main/speedtest.py | python3 - -f
 ```
